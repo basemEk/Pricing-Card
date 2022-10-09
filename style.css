@@ -122,11 +122,12 @@ ul {
 }
 
 
-/*Responsive designs for mobiles and tablets*/
+/*Desctop First Method*/
 
-@media (max-width: 650px) {
+ @media (max-width: 650px) {  
   #bottom-left-section, #bottom-right-section, #card {
     width: 100%;
     height: auto;
-  }
-}
+    overflow: auto;
+  }    
+} 
